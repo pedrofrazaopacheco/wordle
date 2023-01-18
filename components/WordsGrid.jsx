@@ -15,7 +15,7 @@ export default function WordsGrid({}) {
             {/* The already Guessed Words */}
             {GuessedStatesContext.guessedWords.map((word) => (
                 <GuessedRow
-                    key={GuessedStatesContext.indexOf(word)}
+                    key={GuessedStatesContext.guessedWords.indexOf(word)}
                     num_of_squares={GuessedStatesContext.num_of_squares}
                     currentWord={word}
                 />
@@ -29,7 +29,7 @@ export default function WordsGrid({}) {
             )}
             {GuessedStatesContext.blankRowsArray.map((el) => (
                 <BlankRow
-                    key={GuessedStatesContext.indexOf(el)}
+                    key={GuessedStatesContext.blankRowsArray.indexOf(el)}
                     num_of_squares={GuessedStatesContext.num_of_squares}
                 />
             ))}
