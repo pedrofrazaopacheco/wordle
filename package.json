@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "canvas-confetti": "^1.6.0",
     "next": "13.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "vercel": "^28.9.0"
   },
   "devDependencies": {
     "eslint": "8.26.0",

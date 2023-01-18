@@ -1,0 +1,4 @@
+Confetti
+Show if player is at the end
+Show if player got it right
+Show Stats in a separate page - Save to local Storage
