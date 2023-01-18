@@ -33,7 +33,7 @@ export default function Home() {
                     }px`,
                 }}
             >
-                Sorry! We don't have that word here!
+                Sorry! We dont have that word here!
             </div>
             <WordsGrid
                 num_of_rows={context.num_of_rows}
